@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.0.2/js/vendor/custom.modernizr.js"></script>
+  <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.0.2/js/jquery.js"></script>
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.0.2/css/foundation.css">
+
+</head>
+<body>
+  <!-- because foundation initializes Fastclick, import foundation in the body, not the head. -->
+  <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.0.2/js/foundation/foundation.js"></script>
+  <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.0.2/js/foundation/foundation.orbit.js"></script>
+
+  <div class="row">
+    <div class="small-10 columns">
+      
+      <!-- the data-orbit-slide attributes are optional, use them when you want a way
+          to navigate the slider to specific slides from controls outside the slider. -->
+          
+        <ul data-orbit>
+            <li data-orbit-slide="1" style="background-color:gray; text-align:center;"> Foo
+            </li>
+            <li data-orbit-slide="2" style="background-color:gray; text-align:center;"> Bar
+            </li>
+            <li data-orbit-slide="3" style="background-color:gray; text-align:center;"> Bing
+            </li>
+            <li data-orbit-slide="4" style="background-color:gray; text-align:center;"> Baz
+            </li>
+        </ul>
+    </div>
+  </div>
+    <script>
+        $(document).foundation({
+            orbit: {
+                animation: 'slide',
+                timer_speed: 1000,
+                pause_on_hover: true,
+                resume_on_mouseout: true,
+                animation_speed: 500,
+                navigation_arrows: false,
+                bullets: false,
+                next_on_click: true
+            }
+        });
+    </script>
+  </body>
+</html>

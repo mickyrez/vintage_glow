@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vintage Glow</title>
+
+  <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
+  <link rel="stylesheet" href="stylesheets/normalize.css">
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <script src="javascripts/vendor/modernizr.js"></script>
+<style>
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+  height: 142px; 
+}
+.site-footer {
+  background: #afcd71;
+  text-align: center;
+  color: white;
+}
+.site-footer a {
+  color: white;
+}
+.site-footer a:hover {
+  text-shadow: 0 0 2px #FFF;
+  text-decoration: underline;
+}
+
+#sidenavbar {
+  background-color: #FFF; border: 1px; text-align: center;
+}
+
+@media only screen and (max-width: 40em) {
+  #sidenavbar {
+    background: none;
+  }
+  .vcard {
+    background: white;
+  }
+  #orbz {
+    padding-top: 20px;
+  }
+}
+
+</style>
+
+</head>
+<body style="background-image:url('images/fresh_snow.png');">
+<div class="page-wrap">
+  <div class="row">
+    <div class="large-3 columns">
+        <img src="images/logo300.png">
+      </a>
+    </div>
+    <div class="large-9 columns" id="orbz">
+    <ul class="example-orbit" data-orbit
+    data-options="animation:slide;
+                      animation_speed: 1;
+                      pause_on_hover: false;
+                      resume_on_mouseout: true;
+                      timer: true;
+                      navigation_arrows: false;
+                      bullets:false;">
+      <li>
+        <img src="http://placehold.it/1000x300/FDC43D/fff" alt="slide 1" />
+      </li>
+      <li>
+        <img src="http://placehold.it/1000x300/AFCD71/fff" alt="slide 2" />
+      </li>
+      <li>
+        <img src="http://placehold.it/1000x300/EE964D/fff" alt="slide 3" />
+      </li>
+    </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-10 columns">
+      <ul class="breadcrumbs large-6 large-offset-4 columns">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li class="unavailable"><a href="#">Bookings</a></li>
+        <li class="current"><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-3 columns" id="sidenavbar">     
+      <ul class="side-nav" style="color: white;">
+        <li><a href="index.html" class="button">Home</a></li>
+        <li><a href="gallery.html" class="button">Gallery</a></li>
+        <li><a href="bookings.html" class="button">Bookings</a></li>
+        <li><a href="contact.html" class="button">Contact</a></li>
+      </ul>
+      <div class="row">
+        <ul class="vcard">
+          <li class="fn">Vintage Glow</li>
+          <li class="street-address">Address</li>
+          <li class="locality">Shellharbour</li>
+          <li><span class="state">NSW</span>, <span class="zip">2529</span></li>
+          <li><a href="tel:0419168638">0419 168 638</a></li>
+          <li><a href="tel:0413991486">0413 991 486</a></li>
+          <li class="email"><a href="mailto:ange-g@bigpond.net.au">ange-g@bigpond.net.au</a></li>
+          <span style="color: #dddddd;">_______________</span>
+          <br>
+          <br>
+          <li><a href="https://www.facebook.com/vintageglow"><img src="images/facebook3.png"></a></li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="large-9 columns">
+      <div id="content" class="large-12 columns" style="background-color: white;">
+      <h1>Home</h1>
+        <p>A panel is a simple, helpful Foundation component that enables you to outline sections of your page easily. This allows you to view your page sections as you add content to them, or add emphasis to a section. The width is controlled by the grid columns you put them inside.A panel is a simple, helpful Foundation component that enables you to outline sections of your page easily. This allows you to view your page sections as you add content to them, or add emphasis to a section. The width is controlled by the grid columns you put them inside.
+        A panel is a simple, helpful Foundation component that enables you to outline sections of your page easily. This allows you to view your page sections as you add content to them, or add emphasis to a section. The width is controlled by the grid columns you put them inside.A panel is a simple, helpful Foundation component that enables you to outline sections of your page easily. This allows you to view your page sections as you add content to them, or add emphasis to a section. The width is controlled by the grid columns you put them inside.A panel is a simple, helpful Foundation component that enables you to outline sections of your page easily. This allows you to view your page sections as you add content to them, or add emphasis to a section. The width is controlled by the grid columns you put them inside.A panel is a simple, helpful Foundation component that enables you to outline sections of your page easily. This allows you to view your page sections as you add content to them, or add emphasis to a section. The width is controlled by the grid columns you put them inside.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>© 2014 Vintage Glow</p>
+  <span class="footer-links"><a href="index.html">Home</a></span> | 
+  <span class="footer-links"><a href="gallery.html">Gallery</a></span> | 
+  <span class="footer-links"><a href="bookings.html">Bookings</a></span> | 
+  <span class="footer-links"><a href="contact.html">Contact</a></span>
+</footer>
+
+  <script src="javascripts/vendor/jquery.js"></script>
+  <script src="javascripts/foundation.min.js"></script>
+  <script src="javascripts/foundation/foundation.js"></script>
+  <script src="javascripts/foundation/foundation.orbit.js"></script>
+  <script>
+       $(document).foundation();
+  </script>
+
+</body>
+</html>
